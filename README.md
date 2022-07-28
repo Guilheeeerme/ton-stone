@@ -8,7 +8,7 @@ O Bot foi desenvolvido na plataforma **Blip**, e utiliza o **DialogFlow** como p
 ## Artefatos do chatbot:
 
 - Primeiro crie uma conta gratuita no **Blip** https://portal.blip.ai
-- Em seguida você deve criar um novo bot do zero apenas para poder importar esse meu artefato:
+- Em seguida você deve criar um novo bot do zero apenas para poder importar esse meu artefato: [tonBlip.json](https://github.com/Guilheeeerme/ton-stone/blob/main/tonBlip.json)
   - [Tutorial de como importar esse artefato no Blip](https://help.blip.ai/hc/pt-br/articles/4474433224087-Como-importar-o-fluxo-de-um-bot-no-Builder#:~:text=Clique%20no%20bot%C3%A3o%20Configura%C3%A7%C3%B5es%20no%20menu%20lateral%20esquerdo,em%20Publicar%20fluxo%20para%20testar%20seu%20novo%20bot.)
 - Artefato com as intenções para ser importado no **DiaglogFlow**: [TonStoneBot.zip](https://github.com/Guilheeeerme/ton-stone/blob/main/TonStoneBot.zip)
 
