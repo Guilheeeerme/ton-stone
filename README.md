@@ -29,3 +29,35 @@ Para as intenções **Saber preço** e **Prazo de entrega**, o bot valida se o u
 ## Frases do usuário não compreendidas:
 
 Nos menus de **Escolher plano** e **Escolher modelo**, além da IA habilitada, caso o usuário envie um input inesperado que também não seja identificado pela IA, o bot vai direcionar para um fluxo com mensagem de erro para primeira tentativa e retornar para o menu anterior correspondente, dando assim mais uma tentativa ao usuário, caso ele digite uma opção inválida novamente o bot vai direcionar para uma mensagem de erro padrão e encerrar a sessão.
+
+
+----
+
+# API - Testar localmente
+
+É necessário ter o Nodejs e NPM instalados.
+
+```bash
+# Clone esse repositório: 
+$ git clone git@github.com:Guilheeeerme/ton-stone.git
+
+# Entre na pasta ton-stone: 
+$ cd ton-stone/
+
+# Instale as dependências: 
+$ npm install
+
+# Execute o script: 
+$ npm run start
+```
+
+Após isso é possível fazer requisições **POST** para **https://localhost:3000/dev**, utilizando o body: 
+   
+  ```json
+  {
+    "plano": "ton"
+  }
+  ```
+  O valor do parâmetro **plano** pode ser "ton", "megaton", "gigaton" ou "ultraton".
+ 
+ 
