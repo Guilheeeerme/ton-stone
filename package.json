@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "sls offline start"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "serverless-offline": "^9.0.0"
+  }
+}
